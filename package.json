@@ -1,0 +1,20 @@
+{
+  "name": "cropic-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Monorepo orchestration for the CROPIC full-stack application.",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently -r \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "build": "npm run build --prefix frontend",
+    "start": "npm run start --prefix backend",
+    "lint": "npm run lint --prefix backend && npm run lint --prefix frontend",
+    "seed": "npm run seed --prefix backend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
