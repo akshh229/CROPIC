@@ -1,5 +1,7 @@
 # CROPIC – AI-Powered Crop Image Analytics for PMFBY
 
+> ⚠️ **PROJECT STATUS:** This repository is currently in the **initial setup phase**. The backend and frontend implementations are not yet complete. See [REVIEW.md](REVIEW.md) for detailed status and [ROADMAP.md](ROADMAP.md) for development plan.
+
 Prototype full-stack web application delivering AI-assisted crop image assessments, soil insights, and weather-powered advisory for the Pradhan Mantri Fasal Bima Yojana (PMFBY).
 
 ## Features
@@ -108,6 +110,25 @@ Add branded icons to `frontend/public/pwa-192x192.png` and `frontend/public/pwa-
 2. Strengthen validation, rate limiting, and audit trails.
 3. Add multilingual voice guidance and chat assistant integrations (OpenAI or equivalent).
 4. Expand test coverage (unit + integration) across services and UI.
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+## Security
+
+For security concerns, please review [SECURITY.md](SECURITY.md) and follow the responsible disclosure process.
+
+## Roadmap
+
+See [ROADMAP.md](ROADMAP.md) for the detailed development plan and current progress.
+
+## Documentation
+
+- **[REVIEW.md](REVIEW.md)** - Comprehensive repository review and status
+- **[ROADMAP.md](ROADMAP.md)** - Development roadmap and milestones
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contribution guidelines
+- **[SECURITY.md](SECURITY.md)** - Security policy and best practices
 
 ---
 Built as a reference implementation for AI-assisted crop insurance workflows under PMFBY.
