@@ -16,7 +16,7 @@ Please do not create a public GitHub issue for security vulnerabilities. This he
 
 ### 2. Report Privately
 
-Send security reports to: **[Your Email or Security Contact]**
+Send security reports to: **security@cropic-project.example** (Note: Update this email address with actual security contact)
 
 Include:
 - Description of the vulnerability
